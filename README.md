@@ -20,7 +20,7 @@ Compared references with [chromeister](https://github.com/estebanpw/chromeister)
 ![dotplot](images/contig_comparison.png)
 # Problem 2 (Reads as input)
 
-1. Aligned both samples to one of the fake refrences:
+1. Aligned both samples to one of the fake references:
 
 ``` bash
 minimap2 -ax map-ont ../../../fake_references/referenceA.fa ../fastq/sampleA_0001.fastq | samtools view -b - | samtools sort -  > sampleA.bam
